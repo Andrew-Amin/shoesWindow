@@ -9,13 +9,13 @@
 
 
 <p align="left" width="100%">
-  <img src="Login_Screenshot.png" width="300">
-  <img src="Welcome_Screenshot.png" width="300">
-  <img src="Instruction_Screenshot.png" width="300">
+  <img src="Login_Screenshot.png" width="200">
+  <img src="Welcome_Screenshot.png" width="200">
+  <img src="Instruction_Screenshot.png" width="200">
 </p>
 <p align="left" width="100%">
-  <img src="ShoesList_Screenshot.png" width="300">
-  <img src="AddNewShoes_Screenshot.png" width="300">
+  <img src="ShoesList_Screenshot.png" width="200">
+  <img src="AddNewShoes_Screenshot.png" width="200">
 </p>
 
 ## Getting Started
