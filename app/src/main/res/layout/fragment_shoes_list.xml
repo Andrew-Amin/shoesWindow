@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screens.home.ShoesListFragment">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_dark">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/sheos_list"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/shoes_list_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                />
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_shoes_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/large_padding"
+            android:layout_marginBottom="@dimen/large_padding"
+            android:contentDescription="@string/add_new_shoes"
+            android:src="@drawable/ic_baseline_add"
+            app:backgroundTint="@color/my_accent_color"
+            app:tint="@color/white"
+            tools:targetApi="m" />
+    </FrameLayout>
+
+</layout>

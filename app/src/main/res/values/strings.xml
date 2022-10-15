@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Shoes Window</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="shoes_window">Shoes Window</string>
+    <string name="login">LOGIN</string>
+    <string name="preference_file_key">MainActivityPreferenceFile</string>
+    <string name="welcome_to_shoes_window">Welcome To Shoes Window</string>
+    <string name="welcome_msg">This the first app that test the skills that I have earned from the first lesson in the android development course with kotlin, this app should shows the earned navigation and layout skills.\n\nShoes Window app is a prototype for an online shopping app for shoes.</string>
+    <string name="next">NEXT</string>
+    <string name="app_instructions">App Instructions</string>
+    <string name="app_instructions_msg">1- Open the starter project from the github repo in Android Studio\n
+2-Add the navigation libraries to the app build.gradle file\n
+3-Add the safe-arg plugin to the main and app build.gradle file\n
+4-Set DataBindingUtil in build.gradle\n
+5-Use DataBindingUtil to inflate every layout\n
+6-Create a new navigation xml file\n
+7-Create a new Login destination.</string>
+    <string name="email_example">abc@example.com</string>
+    <string name="app_logo">App Logo</string>
+    <string name="already_have_account"><u>Already have account</u></string>
+    <string name="signup">SIGNUP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_shoes">Add New Shoes</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="save">SAVE</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="name_format"><b>Name:</b> %s</string>
+    <string name="company_format"><b>Company:</b> %s</string>
+    <string name="size_format"><b>Size:</b> %d</string>
+    <string name="desc_format"><b>Description:</b> %s</string>
+    <string name="logout">Logout</string>
+    <string name="shoesimage">ShoesImage</string>
+    <string name="sheos_list">sheos list screen</string>
+
+
+</resources>
