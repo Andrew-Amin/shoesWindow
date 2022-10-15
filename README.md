@@ -6,9 +6,10 @@
 * DataBinding
 * ViewModel & LiveData
 
-<img src="Login_Screenshot.png" width="300">
+
 
 <p align="left" width="100%">
+  <img src="Login_Screenshot.png" width="300">
   <img src="Welcome_Screenshot.png" width="300">
   <img src="Instruction_Screenshot.png" width="300">
 </p>
