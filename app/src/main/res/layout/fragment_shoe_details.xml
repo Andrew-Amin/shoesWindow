@@ -9,9 +9,6 @@
             name="shoesViewModel"
             type="com.example.shoeswindow.viewmodels.ShoesListViewModel" />
 
-<!--        <variable-->
-<!--            name="shoesItem"-->
-<!--            type="com.example.shoeswindow.models.Shoe" />-->
 
     </data>
 
@@ -59,6 +56,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:ems="10"
+                android:text="@{shoesViewModel.getCompany()}"
                 android:hint="@string/company"
                 android:inputType="textPersonName"
                 android:onTextChanged="@{(text,start,before,count)->shoesViewModel.setCompany(text.toString())}"
@@ -77,6 +75,7 @@
                 android:layout_marginEnd="16dp"
                 android:ems="10"
                 android:hint="@string/size"
+                android:text="@{shoesViewModel.getSize()}"
                 android:inputType="number"
                 android:onTextChanged="@{(text,start,before,count)->shoesViewModel.setSize(text.toString())}"
                 app:layout_constraintBottom_toTopOf="@+id/shoeDiscription_et"
@@ -96,6 +95,7 @@
                 android:ems="10"
                 android:hint="@string/name"
                 android:inputType="textPersonName"
+                android:text="@{shoesViewModel.getName()}"
                 android:onTextChanged="@{(text,start,before,count)->shoesViewModel.setName(text.toString())}"
                 app:layout_constraintBottom_toTopOf="@+id/shoeCompany_et"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -116,6 +116,7 @@
                 android:hint="@string/description"
                 android:inputType="textMultiLine"
                 android:maxLines="3"
+                android:text="@{shoesViewModel.getDescription()}"
                 android:onTextChanged="@{(text,start,before,count)->shoesViewModel.setDescription(text.toString())}"
                 app:layout_constraintBottom_toTopOf="@+id/save_btn"
                 app:layout_constraintEnd_toEndOf="parent"

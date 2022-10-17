@@ -27,11 +27,30 @@ class ShoesListViewModel : ViewModel() {
     }
 
     fun setSize(size: String) {
-        _shoeSize = size.toInt()
+        if (size.isNotEmpty())
+            _shoeSize = size.toInt()
     }
 
     fun setDescription(desc: String) {
         _shoeDesc = desc
+    }
+
+    fun getName(): String {
+        return _shoeName
+    }
+
+    fun getCompany(): String {
+        return _shoeCompany
+    }
+
+    fun getSize(): String {
+        if (_shoeSize<=0)
+            return ""
+        return _shoeSize.toString()
+    }
+
+    fun getDescription(): String {
+        return _shoeDesc
     }
 
     fun resetNavigation() {
