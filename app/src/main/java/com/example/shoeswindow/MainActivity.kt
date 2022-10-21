@@ -32,7 +32,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupNavController() {
         navController = this.findNavController(R.id.main_activity_nav_host_fragment)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
+        appBarConfiguration = AppBarConfiguration(setOf(
+            R.id.loginFragment,
+            R.id.welcomeFragment,
+            R.id.shoesListFragment
+        ))
+
         NavigationUI.setupWithNavController(binding.myToolbar, navController, appBarConfiguration)
     }
 }
